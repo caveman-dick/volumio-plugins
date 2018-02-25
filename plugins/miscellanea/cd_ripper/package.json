@@ -1,0 +1,21 @@
+{
+	"name": "cd_ripper",
+	"version": "1.0.0",
+	"description": "An ABCDE-based automated ripper",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Slinky Software",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "cd_ripper",
+		"icon": "fa-lightbulb-o",
+		"plugin_type": "miscellanea"
+	},
+	"dependencies": {
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"v-conf": "^1.4.0"
+	}
+}
